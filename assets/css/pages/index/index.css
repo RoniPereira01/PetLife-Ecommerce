@@ -1,0 +1,8 @@
+@import './partials/section-Header.css';
+@import './partials/section-dois.css';
+@import './partials/section-tres.css';
+@import './partials/section-quatro.css';
+
+
+/* global */
+@import '../../global/global.css';

@@ -1,0 +1,31 @@
+.block1{
+    display: flex; 
+     gap: 20rem;
+     margin: 45px;
+
+}
+.text{
+    width: 50%;
+    text-align: start; 
+}
+.text h1{
+    font-size: 40px;
+}
+.text  span{
+    font-size:75px; 
+    font-weight: 600;
+    color: orange;
+}
+.text h3{
+    margin-top: 5rem;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: #333;
+}
+.Image{
+    width: 50%;
+}
+.Image img{
+    width: 550px;
+    height: 500px;
+}

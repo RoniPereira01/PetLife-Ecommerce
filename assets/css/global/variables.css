@@ -1,0 +1,10 @@
+:root{
+    --cor-banco: #fff;
+    --cor-preto: #fff;
+
+
+    --f1: clamp(1rem, 1vw, 3.2rem);
+    --f2: clamp(1rem, 1vw, 3.2rem);
+    --f3: clamp(1rem, 1vw, 3.2rem);
+}
+

@@ -1,0 +1,47 @@
+@media (max-width: 870px) {
+    .content {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+  
+    .content .list-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    .content .list-menu li {
+        margin: 15px 0;
+    }
+  
+    .content .list-menu li a {
+        font-size: 2rem;
+    }
+  
+    .menu-toggle {
+        display: flex;
+    }
+  
+    .content.on .list-menu {
+        display: flex;
+    }
+  
+    .content.on .menu-toggle .one {
+        transform: rotate(45deg) translate(10px, 10px);
+    }
+  
+    .content.on .menu-toggle .two {
+        opacity: 0;
+    }
+  
+    .content.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+  }
+  
